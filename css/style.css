@@ -283,7 +283,7 @@ html {
   }
 }
 
-.search-delivery {
+.widget .search-delivery {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 2;
@@ -291,7 +291,7 @@ html {
   width: 100;
 }
 
-.search-white {
+.widget .search-white {
   margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,11 +308,11 @@ html {
   padding: 15px;
 }
 
-.search-white span {
+.widget .search-white span {
   padding: 15px;
 }
 
-.search-white .search-del {
+.widget .search-white .search-del {
   width: 65%;
   height: 10px;
   padding: 10px;
@@ -321,13 +321,13 @@ html {
 }
 
 @media (max-width: 756px) {
-  .search-white .search-del {
+  .widget .search-white .search-del {
     height: 10px;
     width: 60%;
   }
 }
 
-.detect-btn {
+.widget .detect-btn {
   margin: 5px;
   padding: 5px;
   background: #e1e1e1;
@@ -337,13 +337,13 @@ html {
 }
 
 @media (max-width: 756px) {
-  .detect-btn {
+  .widget .detect-btn {
     font-size: 12px;
     width: 19%;
   }
 }
 
-.btn {
+.widget .btn {
   background: green;
   color: wheat;
   border-radius: 3px;
@@ -351,12 +351,12 @@ html {
 }
 
 @media (max-width: 756px) {
-  .btn {
+  .widget .btn {
     height: 30px;
   }
 }
 
-.line {
+.widget .line {
   margin-top: 15px;
   width: 100%;
   height: 1px;
@@ -364,7 +364,7 @@ html {
   margin-bottom: 10%;
 }
 
-.offer {
+.widget .offer {
   color: #ff3d3d;
   margin-bottom: 90px;
   display: block;
