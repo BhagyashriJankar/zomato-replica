@@ -283,7 +283,7 @@ html {
   }
 }
 
-.widget .search-delivery {
+.search-delivery {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 2;
@@ -291,7 +291,7 @@ html {
   width: 100;
 }
 
-.widget .search-white {
+.search-white {
   margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,11 +308,11 @@ html {
   padding: 15px;
 }
 
-.widget .search-white span {
+.search-white span {
   padding: 15px;
 }
 
-.widget .search-white .search-del {
+.search-white .search-del {
   width: 65%;
   height: 10px;
   padding: 10px;
@@ -321,13 +321,13 @@ html {
 }
 
 @media (max-width: 756px) {
-  .widget .search-white .search-del {
+  .search-white .search-del {
     height: 10px;
     width: 60%;
   }
 }
 
-.widget .detect-btn {
+.detect-btn {
   margin: 5px;
   padding: 5px;
   background: #e1e1e1;
@@ -337,13 +337,13 @@ html {
 }
 
 @media (max-width: 756px) {
-  .widget .detect-btn {
+  .detect-btn {
     font-size: 12px;
     width: 19%;
   }
 }
 
-.widget .order-btn {
+.order-btn {
   background: green;
   color: wheat;
   border-radius: 3px;
@@ -351,12 +351,12 @@ html {
 }
 
 @media (max-width: 756px) {
-  .widget .order-btn {
+  .order-btn {
     height: 30px;
   }
 }
 
-.widget .line {
+.line {
   margin-top: 15px;
   width: 98.5%;
   height: 1px;
@@ -364,7 +364,7 @@ html {
   margin-bottom: 10%;
 }
 
-.widget .offer {
+.offer {
   color: #ff3d3d;
   margin-bottom: 90px;
   display: block;
