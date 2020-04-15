@@ -343,7 +343,7 @@ html {
   }
 }
 
-.widget .btn {
+.widget .order-btn {
   background: green;
   color: wheat;
   border-radius: 3px;
@@ -351,14 +351,14 @@ html {
 }
 
 @media (max-width: 756px) {
-  .widget .btn {
+  .widget .order-btn {
     height: 30px;
   }
 }
 
 .widget .line {
   margin-top: 15px;
-  width: 100%;
+  width: 98.5%;
   height: 1px;
   background-color: #c7c0c0;
   margin-bottom: 10%;
