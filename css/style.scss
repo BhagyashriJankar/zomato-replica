@@ -241,7 +241,12 @@
                 background-color: white;
                 border-radius: 5px;
 
-                h4{
+                   h4{
+                           font-size:  25px;
+                           font-weight: 40px ;
+                           font-style: bold;
+                   }
+               
                         justify-content: center;
                             padding: $padding;
                 }
@@ -260,7 +265,7 @@
                             }
 
                 }
-        }
+        
         .detect-btn{
                 margin: 5px;
                 padding: 5px;

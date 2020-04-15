@@ -307,20 +307,23 @@ html {
           flex-direction: column;
   background-color: white;
   border-radius: 5px;
-}
-
-.search-white h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px;
 }
 
-.search-white span {
+.search-white h4 {
+  font-size: 25px;
+  font-weight: 40px;
+  font-style: bold;
+}
+
+span {
   padding: 15px;
 }
 
-.search-white .search-del {
+.search-del {
   width: 65%;
   height: 10px;
   padding: 10px;
@@ -329,7 +332,7 @@ html {
 }
 
 @media (max-width: 756px) {
-  .search-white .search-del {
+  .search-del {
     height: 10px;
     width: 60%;
   }
