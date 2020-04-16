@@ -264,7 +264,7 @@ html {
           justify-content: space-between;
 }
 
-.Widget {
+.widget {
   display: -ms-grid;
   display: grid;
   grid-row: auto;
@@ -275,7 +275,7 @@ html {
 }
 
 @media (max-width: 756px) {
-  .Widget {
+  .widget {
     grid-row: 30% auto;
     -ms-grid-columns: auto;
         grid-template-columns: auto;
