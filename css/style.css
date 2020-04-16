@@ -358,7 +358,7 @@ span {
   background: green;
   color: wheat;
   border-radius: 3px;
-  height: 40px;
+  height: 30px;
 }
 
 @media (max-width: 756px) {
@@ -369,9 +369,9 @@ span {
 
 .line {
   margin-top: 15px;
-  width: 98.5%;
-  height: 1px;
-  background-color: #c7c0c0;
+  width: 90%;
+  height: 2px;
+  background-color: black;
   margin-bottom: 10%;
 }
 
